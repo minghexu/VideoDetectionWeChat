@@ -1,0 +1,1 @@
+.edit{padding:30rpx}.edit .item{padding-bottom:20rpx}.edit .item textarea{border:1rpx solid #eee;height:80rpx;padding:0 20rpx;height:200rpx;width:100%;box-sizing:border-box}

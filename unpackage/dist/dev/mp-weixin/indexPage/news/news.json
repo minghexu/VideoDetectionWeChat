@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "新闻中心",
+  "usingComponents": {
+    "u-tabs": "/uni_modules/uview-ui/components/u-tabs/u-tabs",
+    "u-skeleton": "/uni_modules/uview-ui/components/u-skeleton/u-skeleton",
+    "yiyuzhengnewsbox": "/components/yiyuzhengnewsbox/yiyuzhengnewsbox",
+    "u-line": "/uni_modules/uview-ui/components/u-line/u-line",
+    "pajinsennewsbox": "/components/pajinsennewsbox/pajinsennewsbox"
+  }
+}

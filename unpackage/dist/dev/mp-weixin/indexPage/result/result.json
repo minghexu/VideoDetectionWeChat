@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "帕金森检测结果",
+  "usingComponents": {
+    "u-line": "/uni_modules/uview-ui/components/u-line/u-line"
+  }
+}

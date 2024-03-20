@@ -1,0 +1,1 @@
+.home .loadingState{padding:30rpx}.home .item{padding:30rpx;border-bottom:#f7f7f7 10rpx solid}.home .edit{width:120rpx;height:120rpx;background:#0199fe;border-radius:50%;color:#fff;position:fixed;z-index:100;bottom:150rpx;right:50rpx;display:flex;justify-content:center;align-items:center;box-shadow:0 0 20rpx rgba(1,153,254,.8)}.home .edit .iconfont{font-size:60rpx}

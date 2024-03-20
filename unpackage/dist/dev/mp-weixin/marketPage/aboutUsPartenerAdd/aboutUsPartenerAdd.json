@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "添加合作伙伴",
+  "usingComponents": {
+    "uni-file-picker": "/uni_modules/uni-file-picker/components/uni-file-picker/uni-file-picker",
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button"
+  }
+}

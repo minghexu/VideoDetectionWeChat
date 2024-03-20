@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "开始检测",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-line": "/uni_modules/uview-ui/components/u-line/u-line",
+    "u-scroll-list": "/uni_modules/uview-ui/components/u-scroll-list/u-scroll-list"
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "开始检测",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "uni_modules/uni-id-pages/pages/userinfo/deactivate/deactivate",
+      "style": {
+        "navigationBarTitleText": "注销账号"
+      }
+    },
+    {
+      "path": "uni_modules/uni-id-pages/pages/userinfo/userinfo",
+      "style": {
+        "navigationBarTitleText": "个人资料"
+      }
+    },
+    {
+      "path": "uni_modules/uni-id-pages/pages/userinfo/bind-mobile/bind-mobile",
+      "style": {
+        "navigationBarTitleText": "绑定手机号码"
+      }
+    },
+    {
+      "path": "uni_modules/uni-id-pages/pages/userinfo/cropImage/cropImage",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "uni_modules/uni-id-pages/pages/login/login-withoutpwd",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "uni_modules/uni-id-pages/pages/login/login-withpwd",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "uni_modules/uni-id-pages/pages/login/login-smscode",
+      "style": {
+        "navigationBarTitleText": "手机验证码登录"
+      }
+    },
+    {
+      "path": "uni_modules/uni-id-pages/pages/register/register",
+      "style": {
+        "navigationBarTitleText": "注册"
+      }
+    },
+    {
+      "path": "uni_modules/uni-id-pages/pages/register/register-by-email",
+      "style": {
+        "navigationBarTitleText": "邮箱验证码注册"
+      }
+    },
+    {
+      "path": "uni_modules/uni-id-pages/pages/retrieve/retrieve",
+      "style": {
+        "navigationBarTitleText": "重置密码"
+      }
+    },
+    {
+      "path": "uni_modules/uni-id-pages/pages/retrieve/retrieve-by-email",
+      "style": {
+        "navigationBarTitleText": "通过邮箱重置密码"
+      }
+    },
+    {
+      "path": "uni_modules/uni-id-pages/pages/common/webview/webview",
+      "style": {
+        "enablePullDownRefresh": false,
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "uni_modules/uni-id-pages/pages/userinfo/change_pwd/change_pwd",
+      "style": {
+        "enablePullDownRefresh": false,
+        "navigationBarTitleText": "修改密码"
+      }
+    },
+    {
+      "path": "uni_modules/uni-id-pages/pages/register/register-admin",
+      "style": {
+        "enablePullDownRefresh": false,
+        "navigationBarTitleText": "注册管理员账号"
+      }
+    },
+    {
+      "path": "uni_modules/uni-id-pages/pages/userinfo/set-pwd/set-pwd",
+      "style": {
+        "enablePullDownRefresh": false,
+        "navigationBarTitleText": "设置密码"
+      }
+    },
+    {
+      "path": "uni_modules/uni-id-pages/pages/userinfo/realname-verify/realname-verify",
+      "style": {
+        "enablePullDownRefresh": false,
+        "navigationBarTitleText": "实名认证"
+      }
+    },
+    {
+      "path": "pages/self/self",
+      "style": {
+        "navigationBarTitleText": "个人中心",
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": false
+      }
+    },
+    // {
+    //   "path": "pages/yiyuzhengDetail/yiyuzhengDetail",
+    //   "style": {
+    //     "navigationBarTitleText": "文章详情",
+    //     "enablePullDownRefresh": false
+    //   }
+    // },
+    // {
+    //   "path": "pages/yiyuzhengResult/yiyuzhengResult",
+    //   "style": {
+    //     "navigationBarTitleText": "抑郁症检测结果",
+    //     "enablePullDownRefresh": false
+    //   }
+    // },
+    {
+      "path": "pages/market/market",
+      "style": {
+        "navigationBarTitleText": "优质产品",
+        "enablePullDownRefresh": false
+      }
+    }
+  ],
+  "subPackages": [
+    {
+      "root": "indexPage",
+      "pages": [
+        {
+          "path": "yiyuzhengDetail/yiyuzhengDetail",
+          "style": {
+            "navigationBarTitleText": "文章详情"
+          }
+        },
+        {
+          "path": "yiyuzhengResult/yiyuzhengResult",
+          "style": {
+            "navigationBarTitleText": "抑郁症检测结果"
+          }
+        },
+        {
+          "path": "yiyuzhengAdd/yiyuzhengAdd",
+          "style": {
+            "navigationBarTitleText": "添加抑郁症文章"
+          }
+        },
+        {
+          "path": "yilukangbanAdd/yilukangbanAdd",
+          "style": {
+            "navigationBarTitleText": "添加医路康办文章"
+          }
+        },
+        {
+          "path": "articleDetail/articleDetail",
+          "style": {
+            "navigationBarTitleText": "暖心推文"
+          }
+        },
+        {
+          "path": "blogDetail/blogDetail",
+          "style": {
+            "navigationBarTitleText": "动态详情"
+          }
+        },
+        {
+          "path": "community/community",
+          "style": {
+            "navigationBarTitleText": "社区交流"
+          }
+        },
+        {
+          "path": "news/news",
+          "style": {
+            "navigationBarTitleText": "新闻中心"
+          }
+        },
+        {
+          "path": "pajinsenDetail/pajinsenDetail",
+          "style": {
+            "navigationBarTitleText": "文章详情"
+          }
+        },
+        {
+          "path": "result/result",
+          "style": {
+            "navigationBarTitleText": "帕金森检测结果"
+          }
+        },
+        {
+          "path": "resultTogether/resultTogether",
+          "style": {
+            "navigationBarTitleText": "综合检测结果"
+          }
+        }
+      ]
+    },
+    {
+      "root": "marketPage",
+      "pages": [
+        {
+          "path": "aboutUsProductAdd/aboutUsProductAdd",
+          "style": {
+            "navigationBarTitleText": "添加产品概况"
+          }
+        },
+        {
+          "path": "aboutUsTeamAdd/aboutUsTeamAdd",
+          "style": {
+            "navigationBarTitleText": "添加团队介绍"
+          }
+        },
+        {
+          "path": "aboutUsPartenerAdd/aboutUsPartenerAdd",
+          "style": {
+            "navigationBarTitleText": "添加合作伙伴"
+          }
+        }
+      ]
+    },
+    {
+      "root": "myPage",
+      "pages": [
+        {
+          "path": "aboutus/aboutus",
+          "style": {
+            "navigationBarTitleText": "关于我们"
+          }
+        },
+        {
+          "path": "edit/edit",
+          "style": {
+            "navigationBarTitleText": "发布动态"
+          }
+        },
+        {
+          "path": "feedback/feedback",
+          "style": {
+            "navigationBarTitleText": "我要反馈"
+          }
+        },
+        {
+          "path": "pajinsenAdd/pajinsenAdd",
+          "style": {
+            "navigationBarTitleText": "添加帕金森文章"
+          }
+        },
+        {
+          "path": "pay/pay",
+          "style": {
+            "navigationBarTitleText": "我的钱包"
+          }
+        }
+      ]
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "欢迎使用",
+    "navigationBarBackgroundColor": "#0199FE",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#0199fe",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/index.png",
+        "selectedIconPath": "static/images/indextab.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/market/market",
+        "iconPath": "static/images/market.png",
+        "selectedIconPath": "static/images/markettab.png",
+        "text": "产品"
+      },
+      {
+        "pagePath": "pages/self/self",
+        "iconPath": "static/images/my.png",
+        "selectedIconPath": "static/images/mytab.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "uniIdRouter": {
+    "loginPage": "uni_modules/uni-id-pages/pages/login/login-withpwd",
+    "needLogin": [
+      "pages/feedback/feedback",
+      "uni_modules/uni-id-pages/pages/userinfo/userinfo",
+      "pages/edit/edit",
+      "pages/pay/pay"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "暖心推文",
+  "usingComponents": {
+    "uni-dateformat": "/uni_modules/uni-dateformat/components/uni-dateformat/uni-dateformat"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "优质产品",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "self-product": "/components/selfProduct/selfProduct",
+    "u-line": "/uni_modules/uview-ui/components/u-line/u-line",
+    "other-product": "/components/otherProduct/otherProduct"
+  }
+}
